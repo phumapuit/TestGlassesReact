@@ -1,0 +1,48 @@
+.try__glass{
+  display: flex;
+  justify-content: space-evenly;
+}
+.try__glass-after{
+  position: relative;
+}
+.glass-test{
+  position: absolute;
+  top: 65px;
+  left: 50px;
+  width: 100px;
+}
+.glass-desc{
+  position: absolute;
+  bottom: 0px;
+  font-size: 14px;
+  background-color: #ffa50075;
+}
+.glass-desc p:last-child{
+  margin-bottom: 0;
+  color: white;
+}
+.glass-desc p:first-child{
+  color: blue;
+  font-weight: bold;
+}
+.body{
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+.glass__list{
+  padding: 40px 20px;
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: white;
+  margin-top: 50px;
+  gap: 10px;
+}
+h1{
+  padding: 35px 0px;
+  background-color: rgba(0, 0, 0, 0.39);
+  color: white;
+  margin-bottom: 40px;
+}
